@@ -8,18 +8,22 @@
 
 body{
     font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
 }
 
 a{
     color: #42b6e9;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .t-gray{
     color: gray;
+    font-weight: bold;
 }
 
 .t-gray.date {
     font-size: 0.7rem;
+    margin-bottom: 20px;
 }
 
