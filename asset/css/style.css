@@ -30,3 +30,15 @@ a{
 .photo-description{
     font-size: 0.7rem;
 }
+
+.content{
+    margin: 20px 0;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+.content.ul {
+    margin-left: 15px;
+}
