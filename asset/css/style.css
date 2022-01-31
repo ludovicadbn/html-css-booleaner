@@ -11,6 +11,10 @@ main, footer{
     margin: 10px;
 }
 
+.t-gray.date, table{
+    margin-bottom: 20px;
+}
+
 /* header */
 
 header{
@@ -46,16 +50,11 @@ a{
     font-weight: bold;
 }
 
-.t-gray.date {
-    font-size: 0.7rem;
-    margin-bottom: 20px;
-}
-
-.photo-description{
+.t-gray.date, .photo-description{
     font-size: 0.7rem;
 }
 
-.content{
+.first-p{
     margin: 20px 0;
 }
 
@@ -63,15 +62,11 @@ a{
     background-color: yellow;
 }
 
-.content.ul {
+.first-p.ul {
     margin-left: 15px;
 }
 
 /* table */
-
-table{
-    margin-bottom: 20px;
-}
 
 th{
     background-color: #20a9e5;
@@ -103,8 +98,7 @@ footer p{
     font-size: 1.2rem;
 }
 
-#ph-footer1{
-    background-image: url(../img/monitor.jpg);
+#ph-footer1, #ph-footer2{
     width: 270px;
     height: 208px;
     color: white;
@@ -114,13 +108,10 @@ footer p{
     margin: 20px 0;
 }
 
+#ph-footer1{
+    background-image: url(../img/monitor.jpg);
+}
+
 #ph-footer2{
     background-image: url(../img/graph.jpg);
-    width: 270px;
-    height: 208px;
-    color: white;
-    padding: 15px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 20px 0;
 }
