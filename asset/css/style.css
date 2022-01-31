@@ -66,3 +66,26 @@ a{
 .content.ul {
     margin-left: 15px;
 }
+
+/* table */
+
+th{
+    background-color: #20a9e5;
+    color: white;
+}
+
+tr{
+    text-align: left;
+}
+
+.row-25{
+    width: 25%;
+}
+
+.row-50{
+    width: 50%;
+}
+
+.bc-lightblue{
+    background-color: #b1e5f2;
+}
