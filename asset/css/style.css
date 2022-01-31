@@ -6,7 +6,7 @@
 }
 /* Fine Reset */
 
-main{
+main, footer{
     font-family: 'Times New Roman', Times, serif;
     margin: 10px;
 }
@@ -69,6 +69,10 @@ a{
 
 /* table */
 
+table{
+    margin-bottom: 20px;
+}
+
 th{
     background-color: #20a9e5;
     color: white;
@@ -88,4 +92,35 @@ tr{
 
 .bc-lightblue{
     background-color: #b1e5f2;
+}
+
+/* footer */
+
+footer p{
+    margin-top: 30px;
+    color: grey;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#ph-footer1{
+    background-image: url(../img/monitor.jpg);
+    width: 270px;
+    height: 208px;
+    color: white;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#ph-footer2{
+    background-image: url(../img/graph.jpg);
+    width: 270px;
+    height: 208px;
+    color: white;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
 }
