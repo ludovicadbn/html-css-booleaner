@@ -68,6 +68,10 @@ a{
 
 /* table */
 
+table{
+    border-spacing: 0;
+}
+
 th{
     background-color: #20a9e5;
     color: white;
